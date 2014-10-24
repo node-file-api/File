@@ -9,5 +9,5 @@
                       "mime": ">= 0.0.0"
                     },
   "main"          : "File.js",
-  "version"       : "0.10.1"
+  "version"       : "0.10.2"
 }
