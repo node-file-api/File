@@ -1,5 +1,5 @@
 {
-  "name"          : "file",
+  "name"          : "File",
   "description"   : "HTML5 FileAPI `File` for Node.js",
   "url"           : "http://github.com/coolaj86/node-file-api/",
   "keywords"      : ["html5", "jsdom", "file-api", "file"],
