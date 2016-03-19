@@ -45,10 +45,6 @@
       return;
     }
 
-    if (!self.jsdom) {
-      return;
-    }
-
     if (!self.async) {
       updateStat(fs.statSync(self.path));
     } else {
@@ -56,6 +52,11 @@
         updateStat(stat);
       });
     }
+
+    if (!self.jsdom) {
+      return;
+    }
+
   }
 
   module.exports = File;
