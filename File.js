@@ -34,7 +34,7 @@
     if (!self.name) {
       throw new Error("No name");
     }
-    self.type = self.type || mime.lookup(self.name);
+    self.type = self.type || mime.getType(self.name);
 
     if (!self.path) {
       if (self.buffer) {
